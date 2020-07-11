@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<title>
+</title>
+<style>
+
+body{
+  background-image:url("img/f2.jpg"); 
+  margin:0;
+}
+
+a{
+ text-decoration: none
+}
+
+h1{
+  
+  font-size: 400%;
+  background-color:rgba(148, 153, 149, 0.5);
+  padding:3%;
+}
+h1 a{
+  color: white
+}
+
+h2{
+  color:wheat;
+  font-weight: bolder;
+  font-size: 200%;
+}
+
+
+h3{
+  
+  background-color:rgba(32, 141, 105, 0.795);
+  padding:1.8%;
+  font-size:150%;
+}
+
+h3 a{
+  margin: 1em;
+  color: white
+}
+
+div{
+    position:absolute;
+    top: 400px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:lightblue;
+    width: 20em;
+    height:23em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+div label{
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+div input{
+  margin-bottom:1.6em;
+  padding:.3em
+}
+
+input[type=submit]{
+   font-size: .9rem;
+   font-weight: bolder;
+   margin-left:50%;
+   transform: translateX(-50%);
+}
+</style>
+</head>
+<body align="center">
+<h1><a href="index.html">Studio Grafike</a></h1>
+<h3><a href="index.html">Home</a> | <a href="RrethNesh.html">Rreth nesh</a> | <a href="Galeri.html">Galeri</a> | <a href="Kontakte.html">Kontakte</a></h3>
+<h2>Kontakte</h2>
+<div>
+<form>
+<label for="emri">Emri</label><br>
+<input type="text"><br>
+<label for="mbiemri" id="mbiemri">Mbiemri</label><br>
+<input type="text" mbiemri="mbiemri"><br>
+<label for="email">Email</label><br>
+<input type="email" name="email"><br>
+<input type="submit" name="submit" value="Dergo"><br>
+</form>
+</div>
+</body>
+<html>
